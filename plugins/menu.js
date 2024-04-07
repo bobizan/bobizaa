@@ -5,7 +5,7 @@ import { xpRange } from '../lib/levelling.js'
 //import { plugins } from '../lib/plugins.js'
 let tags = {
   'morocco':'  ‎أوامر للمغاربة 💙',
-  'applications':'‎ أوامر التطبيقات 💙‎',
+  'applications':'أوامر التطبيقات 💙‎',
   'drawing':'‎ توليد الصور‎ أوامر 💙' ,
   'ai':'‎ الذكاء الاصطناعي‎ أوامر 💙',
   'infobot':'‎ معلومات البوت 💙',
@@ -21,9 +21,8 @@ let tags = {
   'uploader':'‎‎ رفع الملفات‎ 💙',
 }
 const defaultMenu = {
-  before: `*💛السلام عليكم مرحبا بك في بوت بوبيزا*. 
-  *⏳تابعني على الفيسبوك*
-  *https://www.facebook.com/profile.php?id=61557052854167&mibextid=ZbWKwL*
+  before: `*💛السلام عليكم مرحبا بك في بوت بوبيزا*.*⏳تابعني على الفيسبوك*
+  [*https://www.facebook.com/profile.php?id=61557052854167&mibextid=ZbWKwL*]
 ┏━━ salam  *%name*
 👥 *Total user:* %totalreg 
 ⏰ *Uptime:* %muptime
