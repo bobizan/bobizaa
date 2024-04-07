@@ -21,7 +21,7 @@ let tags = {
   'uploader':'‎‎ رفع الملفات‎ 💚',
 }
 const defaultMenu = {
-  before: `السلام عليكم 👋. 
+  before: `السلام عليكم مرحبا بك في بوت بوبيزا👋. 
 
 ┏━━ salam  *%name*
 👥 *Total user:* %totalreg 
@@ -137,7 +137,7 @@ text: text,
 contextInfo: {
 externalAdReply: {
 title: 'BOBIZA BOT ♥',
-body: "أول بوت واتساب في العالم العربي 💖",
+body: "*أول بوت واتساب في العالم العربي إضغظ على الصورة لمتابعة صاحب البوت💖*",
 thumbnailUrl: 'https://telegra.ph/file/89a0078717f50f696afd7.jpg',
 sourceUrl: 'https://www.instagram.com/hlimi_imran',
 mediaType: 1,
