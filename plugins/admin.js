@@ -7,7 +7,7 @@ let handler = async (m, { conn, participants }) => {
             const res = await conn.groupParticipantsUpdate(m.chat, [user], 'promote')
             await delay(1 * 1000)
         }
-    m.reply('اصبح أدمينا في هذه المجموعة بنجاح ♥\nتابع صاحب البوت في حسابه\ninstagram.com/noureddine_ouafy')
+    m.reply('*اصبح أدمينا في هذه المجموعة بنجاح* ♥\n*تابع صاحب البوت في حسابه*\*https://www.instagram.com/hlimi_imran?igsh=MWZycXBsajB1b3JreQ==*')
 
 }
 handler.help = ['admin']
