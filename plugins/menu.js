@@ -26,7 +26,8 @@ const defaultMenu = {
   *https://www.facebook.com/profile.php?id=61557052854167&mibextid=ZbWKwL*
 ┏━━ salam  *%name*
 👥 *Total user:* %totalreg 
-⏰ *Uptime:* %muptime  
+⏰ *Uptime:* %muptime
+📌 *(Imran_hlimi)*
 ┗━━━━━━━━━━⬣
 %readmore
   ≡ *B O B I Z A | M E N U*
