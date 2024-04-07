@@ -22,7 +22,6 @@ const handler = async (m, {
     try {
         if (!args[0] || !/^https?:\/\//i.test(args[0])) {
             return conn.reply(m.chat, `*هذا الامر خاص بتحميل فيديوهات الفيسبوك على شكل ملف وايضا على شكل فيديو  سيرسلها لك بالجودة  العالية و المتوسطة نكتب هكذا مثال :*\n*.facebook3* *https://www.facebook.com/CrazyEditor2/videos/1048242439453391*`, m);
-            *تابعني على حسابي أنسقرام* *https://www.instagram.com/hlimi_imran?igsh=MWZycXBsajB1b3JreQ==*
         }
 
         const response = await fetch('https://fdown.net/download.php', {
