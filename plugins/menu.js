@@ -22,7 +22,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `*السلام عليكم مرحبا بك في بوت بوبيزا*. 
-
+           https://www.facebook.com/profile.php?id=61557052854167&mibextid=ZbWKwL* *تابع صفحتنا على الفيسبوك* 
 ┏━━ salam  *%name*
 👥 *Total user:* %totalreg 
 ⏰ *Uptime:* %muptime  
