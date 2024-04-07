@@ -2,7 +2,8 @@ import translate from '@vitalets/google-translate-api'
 import fetch from 'node-fetch'
 let handler = async (m, { args, usedPrefix, command }) => {
 let msg = `*هذا الأمر يمكنك من الترجمة الفورية لكل اللغات* 
-_مثال اذا اردت الترجمة للعربية_ : 
+*💙مثال اذا اردت الترجمة للعربية*:
+*تابعني على تيك توك* *https://www.tiktok.com/@hlimiimran2008?_t=8lKxI4Oonv4&_r=1*
 *.tr* ar Hello`
 if (!args || !args[0]) return m.reply(msg)  
 let lang = args[0]
