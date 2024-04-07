@@ -27,12 +27,10 @@ const defaultMenu = {
 ┏━━ salam  *%name*
 👥 *Total user:* %totalreg 
 ⏰ *Uptime:* %muptime
-💖 *[Imran_hlimi]📢*
+💖 *[Fabricant Imran_hlimi]📣*
 ┗━━━━━━━━━━⬣
 %readmore
   ≡ *B O B I Z A | M E N U*
-*Instagram 💖 تابعني على حسابي أنستقرام*
-*https://www.instagram.com/hlimi_imran?igsh=MWZycXBsajB1b3JreQ==*
 `.trimStart(),
   header: '┏━━⊜ *_%category_* ',
   body: '┃⋄ %cmd %isdiamond %isPremium',
