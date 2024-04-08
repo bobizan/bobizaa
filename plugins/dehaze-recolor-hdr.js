@@ -18,7 +18,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let error;
 				try {
 					const This = await processing(img, "dehaze");
-					conn.sendFile(m.chat, This, "", " instagram.com/noureddine_ouafy ...", m);
+					conn.sendFile(m.chat, This, "", " *https://www.instagram.com/hlimi_imran?igsh=MWZycXBsajB1b3JreQ==* ...", m);
 				} catch (er) {
 					error = true;
 				} finally {
@@ -44,7 +44,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let error;
 				try {
 					const This = await processing(img, "recolor");
-					conn.sendFile(m.chat, This, "", " instagram.com/noureddine_ouafy ...", m);
+					conn.sendFile(m.chat, This, "", " *https://www.instagram.com/hlimi_imran?igsh=MWZycXBsajB1b3JreQ==* ...", m);
 				} catch (er) {
 					error = true;
 				} finally {
@@ -61,7 +61,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let q = m.quoted ? m.quoted : m;
 				let mime = (q.msg || q).mimetype || q.mediaType || "";
 				if (!mime)
-					throw `ارسل للبوت اي صورة وسوف يقوم برفع جودتها لتصبح HD\n\nارسل الصورة تم أشر اليها واكتب \n*.hd*`;
+					throw `*ارسل للبوت اي صورة وسوف يقوم برفع جودتها لتصبح* HD\n\nارسل الصورة تم أشر اليها واكتب \n*.hd*`;
 				if (!/image\/(jpe?g|png)/.test(mime))
 					throw `Mime ${mime} tidak support`;
 				else conn.hdr[m.sender] = true;
@@ -70,7 +70,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let error;
 				try {
 					const This = await processing(img, "enhance");
-					conn.sendFile(m.chat, This, "", " instagram.com/noureddine_ouafy ...", m);
+					conn.sendFile(m.chat, This, "", " *https://www.instagram.com/hlimi_imran?igsh=MWZycXBsajB1b3JreQ==* ...", m);
 				} catch (er) {
 					error = true;
 				} finally {
