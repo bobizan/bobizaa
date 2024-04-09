@@ -8,7 +8,7 @@ const handler = async (m, {
     command
 }) => {
 
-    const msg = `*هذا الأمر خاص بتحميل فيديوات التكتوك مثال :⏳*\n*.dlpanda* https://www.tiktok.com/@mr_nima_._._x/video/7185424580108897563`;
+    const msg = `*هذا الأمر خاص بتحميل فيديوات التكتوك مثال :⏳*\n*.dlpanda* *https://www.tiktok.com/@mr_nima_._._x/video/7185424580108897563*`;
     let text
     if (args.length >= 1) {
         text = args.slice(0).join(" ")
