@@ -15,6 +15,7 @@ let handler = async (m, { conn, text }) => {
 • *CPU Model*: ${cpuModel}
 • *CPU Speed*: ${cpuSpeed} GHz
 • *Number of CPU Cores*: ${cpuCount}
+*تابعني على انستغرام https://www.instagram.com/hlimi_imran?igsh=MWZycXBsajB1b3JreQ==*
 `
 
   m.reply(message)
