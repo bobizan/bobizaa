@@ -15,7 +15,7 @@ let handler = async (m, {
     ]
 
     let [feature, inputs, inputs_, inputs__, inputs___] = text.split("+")
-    if (!lister.includes(feature)) return m.reply("هذا الامر خاص بتحميل التطبيقات من موقع \n https://www.apkmirror.com/\nيمكنك تحميل التطبيقات من هذا الامر من خلال كتابة \n*.apkmirror s+facebook*\nبعد ان تحصل على رابط التطبيق تعود للبوت وتكتب له هذا الامر لتحميله\n*.apkmirror d+*(رابط التطبيق) \n\n\n*options*\n" + lister.map((v, index) => "  ○ " + v).join("\n"))
+    if (!lister.includes(feature)) return m.reply("*هذا الامر خاص بتحميل التطبيقات من موقع* \n *https://www.apkmirror.com*/\n*يمكنك تحميل التطبيقات من هذا الامر من خلال كتابة* \n*.apkmirror s+facebook*\n*⏳بعد ان تحصل على رابط التطبيق تعود للبوت وتكتب له هذا الامر لتحميله*\n*.apkmirror d+*(رابط التطبيق) \n\n\n*options*\n" + lister.map((v, index) => "  ○ " + v).join("\n"))
 
     if (lister.includes(feature)) {
 
