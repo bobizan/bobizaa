@@ -4,7 +4,7 @@ import googleIt from 'google-it';
 const handler = async (m, { conn, command, args }) => {
   const full = /f$/i.test(command);
   const text = args.join(' ');
-  if (!text) throw `البحث في غوغل : \n\n*.google* سورة البقرة`;
+  if (!text) throw `*البحث في غوغل :* \n\n*.google* سورة البقرة`;
   const url = 'https://google.com/search?q=' + encodeURIComponent(text);
   const search = await googleIt({ query: text });
   const msg = search.map(({ title, link, snippet }) => {
