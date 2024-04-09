@@ -1,7 +1,7 @@
 import yts from 'yt-search'
 import fs from  'fs'
 let handler = async (m, {conn, text }) => {
-  if (!text) throw ' *هذا الامر خاص بالبحث في اليوتوب وأخذ رابط الفيديو* \n مثلا :\n *.yts*   Imran hlimi whatsapp bot'
+  if (!text) throw ' *هذا الامر خاص بالبحث في اليوتوب وأخذ رابط الفيديو* \n مثلا :\n *.yts*   *Imran hlimi whatsapp bot*  *💖لاتنسى متابعتي على أنستغرام https://www.instagram.com/hlimi_imran?igsh=MWZycXBsajB1b3JreQ==*'
   await conn.reply(m.chat, global.wait, m)
   let results = await yts(text)
   let tes = results.all
