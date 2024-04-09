@@ -4,7 +4,7 @@ const prohibited = ['caca', 'polla', 'porno', 'porn', 'gore', 'cum', 'semen', 'p
 if (prohibited.some(word => m.text.toLowerCase().includes(word))) return conn.reply(m.chat, '🚩 *لن أعطي نتائج لطلبك* 😒', m, )
 
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-if (!text) throw `* ⏳تحميل صور من غوغل💖*\nمثــــال :\n*.image* facebook`
+if (!text) throw `*⏳تحميل صور من غوغل💖*\nمثــــال :\n*.image* facebook`
 
 const res = await googleImage(text)
 let image = res.getRandom()
