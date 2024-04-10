@@ -141,7 +141,7 @@ externalAdReply: {
 title: 'BOBIZA BOT ♥',
 body: "أول بوت واتساب في العالم العربي 💖",
 thumbnailUrl: 'https://telegra.ph/file/26c965a677d8f632881bd.jpg',
-sourceUrl: 'https://www.instagram.com/hlimi_imran?igsh=MWZycXBsajB1b3JreQ==',
+sourceUrl: '*https://www.instagram.com/hlimi_imran*',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
