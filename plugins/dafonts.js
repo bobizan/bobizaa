@@ -16,7 +16,7 @@ let handler = async (m, {
     ]
 
     let [feature, inputs, inputs_, inputs__, inputs___] = text.split("+")
-    if (!lister.includes(feature)) return m.reply("*هذا الامر سوف ينفع المصممين و اصحاب المونطاج سواء الصور او الفيديو يمكن من خلال هذا الامر تحميل الخطوط العربية منها والاجنبية من موقع*\n\n https://www.dafont.com/\n\n سوف اعطيك مثال لكيفية تشغيله:
+    if (!lister.includes(feature)) return m.reply("*هذا الامر سوف ينفع المصممين و اصحاب المونطاج سواء الصور او الفيديو يمكن من خلال هذا الامر تحميل الخطوط العربية منها والاجنبية من موقع*\n\n https://www.dafont.com/\n\n *سوف اعطيك مثال لكيفية تشغيله:*
     if (lister.includes(feature)) {
 
         if (feature == "s") {
